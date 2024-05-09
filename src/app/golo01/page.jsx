@@ -1,19 +1,12 @@
 "use client"
-import React from "react";
+import React, { useState, useEffect } from "react";
 import GoloHealthHero from "../components/HeroSection/GoloHealthHero";
 import Navigation from "../components/Navigation/Navigation";
-import { useState, useEffect } from "react";
 
-const page = () => {
+const Page = () => {
   const [datas, setData] = useState({});
   const [isLoading, setLoading] = useState(false);
-  const dummyArray = [
-    {
-      id: 1,
-      name: "Item 1",
-      showComponents: false,
-    },
-  ];
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -38,7 +31,7 @@ const page = () => {
 
   return (
     <>
-      <main id="main" class="site-main">
+      <main id="main" className="site-main">
         {isLoading ? (
           <div>Loading...</div>
         ) : (
@@ -55,4 +48,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
