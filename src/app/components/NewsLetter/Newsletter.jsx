@@ -6,7 +6,7 @@ const NewsLetter = ({ cta_button}) => {
   return (
     <div className=" ">
       <div
-        className="container px-0 lg:px-72 py-20"
+        className="px-0 lg:px-72 py-20"
         style={{ backgroundColor: "#30BEAD" }}
       >
         <div className="lg:flex lg:items-center lg:space-x-[70px]">

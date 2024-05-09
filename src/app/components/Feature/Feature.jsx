@@ -6,7 +6,7 @@ import React from "react";
 const Feature = ({ heading, subheading, features }) => {
  
   return (
-    <div className="container p-8 mx-auto xl: flex flex-col justify-center text-center py-20  max-w-2xl " >
+    <div className=" p-8 mx-auto xl: flex flex-col justify-center text-center py-20 " >
       <div className=" feature text-center">
         <h2 className=" mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
           {heading}

@@ -123,7 +123,7 @@ const Grid = ({ heading, features, title, description }) => {
   };
 
   return (
-    <div className="container p-8 mx-auto flex flex-col justify-center text-center py-20 bg-stone-100  max-w-2xl">
+    <div className="p-8 mx-auto flex flex-col justify-center text-center py-20 bg-stone-100 ">
       <div className="feature text-center">
         <h2 className="mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl dark:text-white">
           {title}

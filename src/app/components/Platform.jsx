@@ -4,8 +4,8 @@ import React from "react";
 
 const Platform = () => {
   return (
-    <div className=" bg-cover bg-no-repeat bg-center section-padding py-20  max-w-2xl">
-      <div className="container px-16">
+    <div className=" bg-cover bg-no-repeat bg-center section-padding py-20  ">
+      <div className="px-16">
         <div className="lg:grid grid-cols-12 gap-[30px]">
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
             <div className="mini-title text-rose-400">Best Online Learning Platform</div>

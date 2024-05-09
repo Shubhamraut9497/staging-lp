@@ -19,7 +19,7 @@ const HeroSection = ({ title, subtitle, banner }) => {
   return (
     <>
       <div
-        className="container py-32 mx-auto xl:flex relative   max-w-2xl "
+        className=" py-32 mx-auto xl:flex relative  "
         style={bgBanner}
       >
         <div className="bg-overlay absolute z-10 bg-neutral-950 opacity-25 w-full h-full "></div>

@@ -6,7 +6,7 @@ import { ChevronUpIcon } from "@heroicons/react/24/solid";
 const FaqSection= ({faqSection}) => {
 
   return (
-    <div className="container !p-0">
+    <div className=" !p-0">
       <div className="w-full max-w-2xl p-2 mx-auto rounded-2xl py-20">
         <h2 className=" mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white text-center mb-3">FAQs</h2>
         <h3 className="  py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300  mx-auto max-w-2xl text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod perferendis consectetur officia rerum dolorum iure. </h3>
