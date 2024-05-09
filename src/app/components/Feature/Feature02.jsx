@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Feature02() {
-
   return (
     <>
       <div className="bg-black">
@@ -18,7 +17,8 @@ export default function Feature02() {
             </h2>
             <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
               Our templates allow for maximum customization. No technical skills
-              required – our intuitive design tools let you get the job done easily.
+              required – our intuitive design tools let you get the job done
+              easily.
             </p>
           </div>
           <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
@@ -28,7 +28,7 @@ export default function Feature02() {
                 style={{
                   backgroundImage:
                     "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)"
+                  borderColor: "rgb(93, 79, 240)",
                 }}
               >
                 <svg
@@ -52,8 +52,8 @@ export default function Feature02() {
               </div>
               <h3 className="mt-6 text-gray-400">Customizable</h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
-                Tailor your landing page's look and feel, from the color scheme to the
-                font size, to the design of the page.
+                Tailor your landing page's look and feel, from the color scheme
+                to the font size, to the design of the page.
               </p>
             </div>
             <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
@@ -62,7 +62,7 @@ export default function Feature02() {
                 style={{
                   backgroundImage:
                     "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)"
+                  borderColor: "rgb(93, 79, 240)",
                 }}
               >
                 <svg
@@ -83,8 +83,8 @@ export default function Feature02() {
               </div>
               <h3 className="mt-6 text-gray-400">Fast Performance</h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
-                We build our templates for speed in mind, for super-fast load times so
-                your customers never waver.
+                We build our templates for speed in mind, for super-fast load
+                times so your customers never waver.
               </p>
             </div>
             <div className="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
@@ -93,7 +93,7 @@ export default function Feature02() {
                 style={{
                   backgroundImage:
                     "linear-gradient(rgb(80, 70, 229) 0%, rgb(43, 49, 203) 100%)",
-                  borderColor: "rgb(93, 79, 240)"
+                  borderColor: "rgb(93, 79, 240)",
                 }}
               >
                 <svg
@@ -119,8 +119,8 @@ export default function Feature02() {
               </div>
               <h3 className="mt-6 text-gray-400">Fully Featured</h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
-                Everything you need to succeed and launch your landing page, right out
-                of the box. No need to install anything else.
+                Everything you need to succeed and launch your landing page,
+                right out of the box. No need to install anything else.
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function Feature02() {
             style={{
               backgroundImage:
                 "linear-gradient(to right top, rgba(79, 70, 229, 0.2) 0%, transparent 50%, transparent 100%)",
-              borderColor: "rgba(92, 79, 240, 0.2)"
+              borderColor: "rgba(92, 79, 240, 0.2)",
             }}
           ></div>
           <div
@@ -137,14 +137,11 @@ export default function Feature02() {
             style={{
               backgroundImage:
                 "linear-gradient(to left top, rgba(220, 38, 38, 0.2) 0%, transparent 50%, transparent 100%)",
-              borderColor: "rgba(92, 79, 240, 0.2)"
+              borderColor: "rgba(92, 79, 240, 0.2)",
             }}
           ></div>
         </section>
       </div>
-
     </>
-
-  )
-
+  );
 }

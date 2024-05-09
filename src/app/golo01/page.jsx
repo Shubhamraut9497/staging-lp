@@ -1,13 +1,11 @@
-"use client";
-import React from 'react'
-import GoloHealthHero from '../components/HeroSection/GoloHealthHero'
-import Navigation from '../components/Navigation/Navigation'
+"use client"
+import React from "react";
+import GoloHealthHero from "../components/HeroSection/GoloHealthHero";
+import Navigation from "../components/Navigation/Navigation";
 import { useState, useEffect } from "react";
 
-
 const page = () => {
-
-    const [datas, setData] = useState({});
+  const [datas, setData] = useState({});
   const [isLoading, setLoading] = useState(false);
   const dummyArray = [
     {
@@ -38,28 +36,23 @@ const page = () => {
   }, []);
   console.log(datas);
 
-
   return (
     <>
-    
-     <main id="main" class="site-main">
-     {isLoading ? (
-        <div>Loading...</div>
-      ) : (
-        <>
-          <Navigation
-            wpNumber={datas ? datas.whatsapp_number : <></>}
-            logo={datas ? datas.logo : "hello"}
-            
-          />
-          <GoloHealthHero/>
-        </>
-          )
-     }
-       
-     </main>
+      <main id="main" class="site-main">
+        {isLoading ? (
+          <div>Loading...</div>
+        ) : (
+          <>
+            <Navigation
+              wpNumber={datas ? datas.whatsapp_number : <></>}
+              logo={datas ? datas.logo : "hello"}
+            />
+            <GoloHealthHero />
+          </>
+        )}
+      </main>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

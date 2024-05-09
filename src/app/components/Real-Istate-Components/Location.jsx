@@ -23,7 +23,7 @@ const Location = () => {
                 elegantly designed villas for sale near Kollur, Tellapur,
                 Nallagundla, Mokila. Nestled amidst serene surroundings, this
                 upcoming villa project, a pre-launch villa project, offers the
-                perfect blend of tranquility and convenience. Don't miss the
+                perfect blend of tranquility and convenience. Don&apos;t miss the
                 chance to be a part of this luxurious villa gated community.
                 Discover your dream home in this sought-after enclave and
                 elevate your living experience to new heights.

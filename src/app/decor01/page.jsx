@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import HeroSection01 from '../components/HeroSection/HeroSection01'
 import Feature01 from './../components/Feature/Feature01';
