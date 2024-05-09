@@ -1,0 +1,22 @@
+.font-gilroy {
+    font-family: Gilroy, serif;
+  }
+
+  .font-medium {
+    font-weight: 500;
+  }
+
+  .text-gray {
+    --tw-text-opacity: 1;
+    color: rgb(123 123 138 / var(--tw-text-opacity));
+  }
+
+
+  .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .leading-\[27px\] {
+    line-height: 27px;
+  }

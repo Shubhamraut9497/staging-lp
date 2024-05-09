@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.jsx", "src/app/components/BenefitsSection.jsx", "src/app/components/Feature/Feature.jsx", "src/app/components/FaqsSection/FaqSection.jsx", "src/app/components/Navigation/Navigation.jsx", "src/app/components/Footer/Footer.jsx", "src/app/components/HeroSection/HeroSection.jsx", "src/app/components/TestimonialsSection.jsx", "src/app/layout.tsx", "src/app/pages/api/data.js"],
+  "exclude": ["node_modules"]
+}

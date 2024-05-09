@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./font.css');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.text-placement{
+   max-width:250px;
+}
+
+/* Custom styles for slick slider arrows */
+.slick-prev,
+.slick-next {
+  background-color: transparent !important; /* Remove background color */
+  width: 40px !important; /* Increase width */
+  height: 40px !important; /* Increase height */
+  z-index: 9999; /* Ensure arrows are on top of other content */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 24px !important; /* Increase arrow size */
+  color: #000 !important; /* Change arrow color */
+}
+
+/* decor css plant */
+.zmin5{
+  z-index: -5;
+}
+
+
